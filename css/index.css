@@ -761,9 +761,10 @@ label,
     margin: auto;
   }
 
-  .smartphone {
+  .smartphone p {
     /*numéro téléphone au format smartphone*/
-    width: 70%;
+    font-size: 17px;
+    color: #24a8e6;
   }
 }
 
