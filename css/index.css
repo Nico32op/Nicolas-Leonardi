@@ -318,9 +318,9 @@ label,
   opacity: 1;
 }
 
-.img-box:hover {
+/* .img-box:hover {
   cursor: pointer;
-}
+} */
 
 .caption > p:nth-child(2) {
   font-size: 0.8em;
@@ -759,6 +759,10 @@ label,
 
   .transparent-box {
     margin: auto;
+  }
+
+  .smartphone {
+    font-size: 17px;
   }
 }
 
