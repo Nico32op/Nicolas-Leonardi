@@ -379,6 +379,18 @@ label,
   font-size: 17px;
 }
 
+.Cvtexte {
+  /*lien du CV présent dans le texte de présentation*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  color: #222527;
+  text-decoration: underline;
+}
+
+.Cvtexte:hover {
+  color: #24a8e6;
+}
+
 .presentation2 {
   background: white;
   color: #222527;
