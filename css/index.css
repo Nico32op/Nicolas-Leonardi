@@ -853,6 +853,11 @@ label,
     width: 278px;
     height: 220px;
   }
+
+  .smartphone {
+    /*numéro téléphone au format smartphone*/
+    width: 95%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1280px) {
