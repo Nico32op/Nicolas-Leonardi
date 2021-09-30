@@ -340,10 +340,19 @@ label,
   text-decoration: none;
   font-size: 15px;
   color: white;
+  background: linear-gradient(
+      to top,
+      #24a8e6 0%,
+      #24a8e6 10%,
+      transparent 10.01%
+    )
+    no-repeat left bottom / 0 100%;
+  transition: background-size 0.5s;
 }
 
 .lien-site a:hover {
   color: #24a8e6;
+  background-size: 100% 100%;
 }
 
 .presentation {
@@ -533,23 +542,33 @@ footer .icone {
 
 .c a {
   padding: 10px;
+
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
-  transition: transform 0.4s;
+  /* transition: transform 0.4s; */
   font-size: 15px;
   font-weight: 500;
 }
 
 .c a:hover {
   color: #24a8e6;
-  transform: scale(1.08);
+  /* transform: scale(1.08); */
 }
 
 .c p {
   transition: transform 0.4s;
+  background: linear-gradient(
+      to top,
+      #24a8e6 0%,
+      #24a8e6 10%,
+      transparent 10.01%
+    )
+    no-repeat left bottom / 0 100%;
+  transition: background-size 0.5s;
 }
 
 .c p:hover {
+  background-size: 100% 100%;
   transform: scale(1.08);
 }
 
